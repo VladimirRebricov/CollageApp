@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		450C472422BB7C18005C3BAB /* collageViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450C472322BB7C18005C3BAB /* collageViewExtensions.swift */; };
+		450CF59D22B3A48A00DA51E0 /* testViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450CF59C22B3A48A00DA51E0 /* testViewController.swift */; };
+		450CF59F22B3A4B600DA51E0 /* collage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450CF59E22B3A4B600DA51E0 /* collage.swift */; };
+		451237D222B8C0630019A480 /* CollageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451237D122B8C0630019A480 /* CollageTableViewController.swift */; };
+		4520F6A022B9462200D5B03E /* collageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4520F69F22B9462200D5B03E /* collageView.swift */; };
+		455D7C7B22A8FACC0049A647 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455D7C7A22A8FACC0049A647 /* AppDelegate.swift */; };
+		455D7C8022A8FACC0049A647 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 455D7C7E22A8FACC0049A647 /* Main.storyboard */; };
+		455D7C8222A8FACD0049A647 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 455D7C8122A8FACD0049A647 /* Assets.xcassets */; };
+		455D7C8522A8FACD0049A647 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 455D7C8322A8FACD0049A647 /* LaunchScreen.storyboard */; };
+		455D7C8F22A9001B0049A647 /* CollageFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455D7C8E22A9001B0049A647 /* CollageFilterViewController.swift */; };
+		458FCAC622C3630C000D9641 /* CollageModules in Resources */ = {isa = PBXBuildFile; fileRef = 458FCAC522C3630C000D9641 /* CollageModules */; };
+		45B99DA822B7C56000D8D843 /* primer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B99DA722B7C56000D8D843 /* primer.swift */; };
+		45BE64B822AA55AF001F336B /* CollageItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BE64B722AA55AF001F336B /* CollageItem.swift */; };
+		45BE64BA22AA5607001F336B /* Collages.plist in Resources */ = {isa = PBXBuildFile; fileRef = 45BE64B922AA5607001F336B /* Collages.plist */; };
+		45C3423E22B2AD500080ADB0 /* CollageFilterLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C3423D22B2AD500080ADB0 /* CollageFilterLayer.swift */; };
+		9AF0F4074F8FDB60C57CD493 /* Pods_CollageApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC87430F4C58268548227E1 /* Pods_CollageApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		450C472322BB7C18005C3BAB /* collageViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collageViewExtensions.swift; sourceTree = "<group>"; };
+		450CF59C22B3A48A00DA51E0 /* testViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testViewController.swift; sourceTree = "<group>"; };
+		450CF59E22B3A4B600DA51E0 /* collage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collage.swift; sourceTree = "<group>"; };
+		451237D122B8C0630019A480 /* CollageTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollageTableViewController.swift; sourceTree = "<group>"; };
+		4520F69F22B9462200D5B03E /* collageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collageView.swift; sourceTree = "<group>"; };
+		455D7C7722A8FACC0049A647 /* CollageApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollageApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		455D7C7A22A8FACC0049A647 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		455D7C7F22A8FACC0049A647 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		455D7C8122A8FACD0049A647 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		455D7C8422A8FACD0049A647 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		455D7C8622A8FACD0049A647 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		455D7C8E22A9001B0049A647 /* CollageFilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollageFilterViewController.swift; sourceTree = "<group>"; };
+		458FCAC522C3630C000D9641 /* CollageModules */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CollageModules; sourceTree = "<group>"; };
+		45B99DA722B7C56000D8D843 /* primer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = primer.swift; sourceTree = "<group>"; };
+		45BE64B722AA55AF001F336B /* CollageItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollageItem.swift; sourceTree = "<group>"; };
+		45BE64B922AA5607001F336B /* Collages.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Collages.plist; sourceTree = "<group>"; };
+		45C3423D22B2AD500080ADB0 /* CollageFilterLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollageFilterLayer.swift; sourceTree = "<group>"; };
+		46C67627285C0C69FF9DA70B /* Pods-CollageApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CollageApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-CollageApp/Pods-CollageApp.release.xcconfig"; sourceTree = "<group>"; };
+		DB48E80854925044ED139592 /* Pods-CollageApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CollageApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CollageApp/Pods-CollageApp.debug.xcconfig"; sourceTree = "<group>"; };
+		EEC87430F4C58268548227E1 /* Pods_CollageApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CollageApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		455D7C7422A8FACC0049A647 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AF0F4074F8FDB60C57CD493 /* Pods_CollageApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D6D8ECB02DEA1FC4907745B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DB48E80854925044ED139592 /* Pods-CollageApp.debug.xcconfig */,
+				46C67627285C0C69FF9DA70B /* Pods-CollageApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4545351422AF9693002586AE /* Clasic Collages */ = {
+			isa = PBXGroup;
+			children = (
+				45BE64B922AA5607001F336B /* Collages.plist */,
+				45BE64B722AA55AF001F336B /* CollageItem.swift */,
+				450CF59E22B3A4B600DA51E0 /* collage.swift */,
+				4520F69F22B9462200D5B03E /* collageView.swift */,
+				450C472322BB7C18005C3BAB /* collageViewExtensions.swift */,
+			);
+			path = "Clasic Collages";
+			sourceTree = "<group>";
+		};
+		4545351522AF96F9002586AE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				451237D122B8C0630019A480 /* CollageTableViewController.swift */,
+				450CF59C22B3A48A00DA51E0 /* testViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		455D7C6E22A8FACC0049A647 = {
+			isa = PBXGroup;
+			children = (
+				455D7C7922A8FACC0049A647 /* CollageApp */,
+				455D7C7822A8FACC0049A647 /* Products */,
+				0D6D8ECB02DEA1FC4907745B /* Pods */,
+				497C95F3DDFFA548F00488E6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		455D7C7822A8FACC0049A647 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				455D7C7722A8FACC0049A647 /* CollageApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		455D7C7922A8FACC0049A647 /* CollageApp */ = {
+			isa = PBXGroup;
+			children = (
+				458FCAC422C362B1000D9641 /* Primer */,
+				4545351522AF96F9002586AE /* View */,
+				4545351422AF9693002586AE /* Clasic Collages */,
+				455D7C7E22A8FACC0049A647 /* Main.storyboard */,
+				455D7C7A22A8FACC0049A647 /* AppDelegate.swift */,
+				455D7C8122A8FACD0049A647 /* Assets.xcassets */,
+				455D7C8322A8FACD0049A647 /* LaunchScreen.storyboard */,
+				455D7C8622A8FACD0049A647 /* Info.plist */,
+				458FCAC522C3630C000D9641 /* CollageModules */,
+			);
+			path = CollageApp;
+			sourceTree = "<group>";
+		};
+		458FCAC422C362B1000D9641 /* Primer */ = {
+			isa = PBXGroup;
+			children = (
+				45C3423D22B2AD500080ADB0 /* CollageFilterLayer.swift */,
+				455D7C8E22A9001B0049A647 /* CollageFilterViewController.swift */,
+				45B99DA722B7C56000D8D843 /* primer.swift */,
+			);
+			path = Primer;
+			sourceTree = "<group>";
+		};
+		497C95F3DDFFA548F00488E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EEC87430F4C58268548227E1 /* Pods_CollageApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		455D7C7622A8FACC0049A647 /* CollageApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 455D7C8922A8FACD0049A647 /* Build configuration list for PBXNativeTarget "CollageApp" */;
+			buildPhases = (
+				70FA1FDBED9397C2F20F99BF /* [CP] Check Pods Manifest.lock */,
+				455D7C7322A8FACC0049A647 /* Sources */,
+				455D7C7422A8FACC0049A647 /* Frameworks */,
+				455D7C7522A8FACC0049A647 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CollageApp;
+			productName = CollageApp;
+			productReference = 455D7C7722A8FACC0049A647 /* CollageApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		455D7C6F22A8FACC0049A647 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Владимир Ребриков";
+				TargetAttributes = {
+					455D7C7622A8FACC0049A647 = {
+						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
+					};
+				};
+			};
+			buildConfigurationList = 455D7C7222A8FACC0049A647 /* Build configuration list for PBXProject "CollageApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 455D7C6E22A8FACC0049A647;
+			productRefGroup = 455D7C7822A8FACC0049A647 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				455D7C7622A8FACC0049A647 /* CollageApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		455D7C7522A8FACC0049A647 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				458FCAC622C3630C000D9641 /* CollageModules in Resources */,
+				455D7C8522A8FACD0049A647 /* LaunchScreen.storyboard in Resources */,
+				455D7C8222A8FACD0049A647 /* Assets.xcassets in Resources */,
+				45BE64BA22AA5607001F336B /* Collages.plist in Resources */,
+				455D7C8022A8FACC0049A647 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		70FA1FDBED9397C2F20F99BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CollageApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		455D7C7322A8FACC0049A647 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				450CF59F22B3A4B600DA51E0 /* collage.swift in Sources */,
+				450CF59D22B3A48A00DA51E0 /* testViewController.swift in Sources */,
+				455D7C8F22A9001B0049A647 /* CollageFilterViewController.swift in Sources */,
+				451237D222B8C0630019A480 /* CollageTableViewController.swift in Sources */,
+				45BE64B822AA55AF001F336B /* CollageItem.swift in Sources */,
+				45C3423E22B2AD500080ADB0 /* CollageFilterLayer.swift in Sources */,
+				455D7C7B22A8FACC0049A647 /* AppDelegate.swift in Sources */,
+				45B99DA822B7C56000D8D843 /* primer.swift in Sources */,
+				4520F6A022B9462200D5B03E /* collageView.swift in Sources */,
+				450C472422BB7C18005C3BAB /* collageViewExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		455D7C7E22A8FACC0049A647 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				455D7C7F22A8FACC0049A647 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		455D7C8322A8FACD0049A647 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				455D7C8422A8FACD0049A647 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		455D7C8722A8FACD0049A647 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		455D7C8822A8FACD0049A647 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		455D7C8A22A8FACD0049A647 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB48E80854925044ED139592 /* Pods-CollageApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NS9V656N96;
+				INFOPLIST_FILE = CollageApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VR.CollageApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CollageApp/CollageModules/CollageApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		455D7C8B22A8FACD0049A647 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46C67627285C0C69FF9DA70B /* Pods-CollageApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NS9V656N96;
+				INFOPLIST_FILE = CollageApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VR.CollageApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CollageApp/CollageModules/CollageApp-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		455D7C7222A8FACC0049A647 /* Build configuration list for PBXProject "CollageApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				455D7C8722A8FACD0049A647 /* Debug */,
+				455D7C8822A8FACD0049A647 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		455D7C8922A8FACD0049A647 /* Build configuration list for PBXNativeTarget "CollageApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				455D7C8A22A8FACD0049A647 /* Debug */,
+				455D7C8B22A8FACD0049A647 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 455D7C6F22A8FACC0049A647 /* Project object */;
+}

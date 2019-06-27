@@ -1,0 +1,6 @@
+framework module Pods_CollageApp {
+  umbrella header "Pods-CollageApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
